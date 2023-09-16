@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9d4e0;
+
+}
+
+.imagem-banner {
+    background-image: url(img/imagens/bg-1.jpg);
+    height: 560px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+    /* foi preciso por causa do menu, para sair do top e não jogar o conteudo pra baixo*/
+}
+
+#div-titulo-banner {
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: #dd96c0;
+}
+
+#div-titulo-banner h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px #000000;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#div-titulo-banner p {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px #dd96c0;
+    color: white;
+}
+
+.imagem-banner nav ul {
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.imagem-banner nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #dd96c0;
+    margin-left: 16px;
+}
+
+.imagem-banner nav a {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.imagem-banner nav a:hover {
+    background-color: #b692a7;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article {
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+article h2 {
+    background-color: #a37e94;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+
+}
+
+.article-link-botao {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-left: auto;
+    text-decoration: none;
+    width: fit-content;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+.rodape {
+    background-color: #816174;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
