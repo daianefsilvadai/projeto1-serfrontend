@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-position: right center;
     padding-top: 1px;
-    /* foi preciso por causa do menu, para sair do top e não jogar o conteudo pra baixo*/
+    
 }
 
 #div-titulo-banner {
